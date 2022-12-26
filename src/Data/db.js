@@ -92,45 +92,37 @@ export let data2 =[
 
 export const hubData=[
   { 
-      id:"",
-      name:"",
-      status:"",
-      loc:"",
-      address:"",
-      street:"",
-      cal:"",
-      day:"",
-      date:"",
-      call:"",
-      phone:"",
-      web:""
+      id:1,
+      name:"Jeddah",
+      status:"Active",
+      address:"Ansar Hospital, hadiqat Rami,jeddah",
+      street:"Makkah, saudi Arabio",
+      day:"Sunday(Today)",
+      date:"10:00AM to 6:00PM - 06:00 PM",
+      phone:"+966-2777588235",
+      web:"Jeddahhubpanda@Hyperpanda.com"
   },
   { 
-    id:"",
-    name:"",
-    status:"",
-    loc:"",
-    address:"",
-    street:"",
-    cal:"",
-    day:"",
-    date:"",
-    call:"",
-    phone:"",
-    web:""
+    id:2,
+    name:"Makkah",
+    status:"Active",
+    address:"Makkah Mail, King Abdullah road",
+    street:"Makkah, saudi Araba",
+    day:"Sunday (Today)",
+    date:"10:00AM to 6:00PM -  06:00 PM",
+    phone:"+966-2777588235",
+    web:"Jeddahhubpanda@Hyperpanda.com"
 },
 { 
-    id:"",
-    name:"",
-    status:"",
-    loc:"",
-    address:"",
-    street:"",
-    cal:"",
-    day:"",
-    date:"",
-    call:"",
-    phone:"",
-    web:""
+    id:3,
+    name:"Riyadh",
+    status:"Inactive",
+    address:"Makkah Mail, King Abdullah road",
+    street:"Makkah, saudi Araba",
+    day:"Sunday (Today)",
+    date:"10:00AM to 6PM -  06:00 PM",
+    phone:'+966-2777588235',
+    web:"Jeddahhubpanda@Hyperpanda.com"
 }
+
 ]

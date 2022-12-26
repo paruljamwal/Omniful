@@ -12,7 +12,7 @@ const Sales = () => {
       <Breadcrumb className={styles.breadCrumbs}>
         <span>
           {" "}
-          <p>Integrated</p> <div className={styles.bread}>12 </div>{" "}
+          <p>Integrated</p> <div className={styles.bread}>{data1?.length+data2?.length} </div>{" "}
         </span>
         <span>
           {" "}
@@ -28,7 +28,7 @@ const Sales = () => {
       <div className={styles.span2}>
         <div className={styles.span1}></div>{" "}
         <div>
-          <h5>Sales channel (8)</h5>
+          <h5>Sales channel ({data1?.length})</h5>
         </div>{" "}
       </div>
       <Container className={styles.cardBox}>
@@ -38,7 +38,7 @@ const Sales = () => {
       <div className={styles.span2}>
         <div className={styles.span1}></div>{" "}
         <div>
-          <h5>Market Places (5)</h5>
+          <h5>Market Places ({data2?.length})</h5>
         </div>{" "}
       </div>
       <Container className={styles.cardBox}>
