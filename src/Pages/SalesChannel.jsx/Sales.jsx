@@ -1,8 +1,12 @@
 import React from 'react'
+import { Container } from 'reactstrap';
+import styles from './Sales.module.css';
 
 const Sales = () => {
   return (
-    <div>Sales</div>
+    <Container className={styles.main} >
+           
+    </Container>
   )
 }
 
