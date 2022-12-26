@@ -57,25 +57,29 @@ export let data1 =[
 
 
 export let data2 =[
-    {
+    {    
+        id:9,
         status:"Active",
         logo:"https://www.vectorlogo.zone/logos/amazon/amazon-ar21.png",
         name:"Custom Name",
         title:"Amazon"
     },
-    {
+    {   
+        id:10,
         status:"Active",
         logo:"https://upload.wikimedia.org/wikipedia/ml/thumb/7/7a/Flipkart_logo.svg/2560px-Flipkart_logo.svg.png",
         name:"Custom Name",
         title:"Flipcart"
     },
     {
+        id:11,
         status:"Active",
         logo:"https://www.freelogovectors.net/wp-content/uploads/2021/02/myntra_logo-freelogovectors.net_.png",
         name:"Custom Name1",
         title:"Myntra"
     },
     {
+        id:12,
         status:"Active",
         logo:"https://www.freelogovectors.net/wp-content/uploads/2021/02/myntra_logo-freelogovectors.net_.png",
         name:"Custom Name2",
@@ -85,3 +89,48 @@ export let data2 =[
 
 
 
+
+export const hubData=[
+  { 
+      id:"",
+      name:"",
+      status:"",
+      loc:"",
+      address:"",
+      street:"",
+      cal:"",
+      day:"",
+      date:"",
+      call:"",
+      phone:"",
+      web:""
+  },
+  { 
+    id:"",
+    name:"",
+    status:"",
+    loc:"",
+    address:"",
+    street:"",
+    cal:"",
+    day:"",
+    date:"",
+    call:"",
+    phone:"",
+    web:""
+},
+{ 
+    id:"",
+    name:"",
+    status:"",
+    loc:"",
+    address:"",
+    street:"",
+    cal:"",
+    day:"",
+    date:"",
+    call:"",
+    phone:"",
+    web:""
+}
+]

@@ -52,6 +52,7 @@ const SidePopUp = () => {
           <AccordionHeader targetId="3"> <MdOutlineLocalShipping size={"25px"}/><strong>Hub Management</strong> </AccordionHeader>
           <AccordionBody accordionId="3">
             <ul>
+                <Link to={"/hubs"} > <li>Hubs</li></Link>
                 <li>Locations</li>
                 <li>Bins</li>
                 <li>Consolidation area</li>
