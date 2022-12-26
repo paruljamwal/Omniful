@@ -1,4 +1,49 @@
 
 .main{
-    border: 1px solid gray;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.cardBox{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.card{
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(55, 55, 55, 0.1) 0px 4px 12px;
+}
+
+.active, .inactive{
+    width: 100px;
+    margin: 10px auto ;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+.active{
+    color: rgb(40,199,111);
+    background-color: rgba(205, 255, 205, 0.58);
+
+}
+
+.inactive{
+    color: rgb(236,103,103);
+    background-color: rgba(252, 201, 201, 0.532);
+}
+
+.name{
+    font-weight: bold;
+}
+
+.title{
+    color: gray;
+}
+
+.image{
+    height: 70px;
 }
