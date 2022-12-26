@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState }  from 'react'
 import styles from './Sidebar.module.css';
 import logo from "../../Icons/Logo.svg";
 import { GrHomeRounded } from "react-icons/gr";
@@ -13,27 +13,39 @@ import { MdOutlineContactSupport } from "react-icons/md";
 import { MdOutlineLogout } from "react-icons/md";
 import { MdOutlineCategory } from "react-icons/md";
 import { BsInboxes } from "react-icons/bs";
+import SidePopUp from '../SidePopUp/SidePopUp';
 
 const Sidebar = () => {
- 
+
+    const [open,setOpen] = useState(false)
+    const toggle=()=>{
+      setOpen(!open);
+    }
   return (
+    <>
     <div className={styles.main} >
        <div>
         <img src={logo} alt="Logo" className={styles.logo}/>
        </div>
-       <div><GrHomeRounded fa-5x/></div>
+       <div ><GrHomeRounded /></div>
        <div><BiDollarCircle/></div>
        <div><MdOutlineInsights/></div>
-       <div><MdOutlineInventory2 fa-5x/></div>
+       <div><MdOutlineInventory2 /></div>
        <div><BsInboxes/></div>
        <div><MdOutlineCategory/></div>
-       <div><MdOutlineAccountBalanceWallet fa-5x/></div>
-       <div><FiSettings/></div>
+       <div><MdOutlineAccountBalanceWallet /></div>
+       <div onClick={toggle}><FiSettings/></div>
        <div><FiUsers/></div>
        <div><MdOutlinePolicy/></div>
        <div><MdOutlineContactSupport/></div>
        <div><MdOutlineLogout/></div>
     </div>
+    {
+        open ? 
+        <SidePopUp open={open} />
+        : ""
+    }
+    </>
   )
 }
 
