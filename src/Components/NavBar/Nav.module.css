@@ -1,0 +1,29 @@
+.Nabvar{
+    border: 1px solid rgb(251, 251, 251);
+    position: fixed !important;
+    top: 0% !important;
+    z-index: 99999;
+    display: flex;
+     background-color: rgb(255,255,255);
+     width: 100%;
+}
+
+.link{
+    border: 1px solid rgb(246, 246, 246);
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+
+
+.help__icons{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.help__icons div{
+   
+    padding: 1px 30px;
+
+}

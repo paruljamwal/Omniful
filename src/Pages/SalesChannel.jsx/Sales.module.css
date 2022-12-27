@@ -1,5 +1,6 @@
 .main {
   border: 0px solid rgb(224, 224, 224);
+  margin-top: 6px;
 }
 
 .cardBox {
@@ -7,7 +8,7 @@
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   text-align: center;
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .card {
@@ -45,7 +46,8 @@
 }
 
 .image {
-  height: 70px;
+  box-sizing: border-box;
+  height: 60px;
 }
 
 .span2 {

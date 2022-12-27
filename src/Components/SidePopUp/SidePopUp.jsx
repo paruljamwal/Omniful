@@ -8,6 +8,7 @@ import {
 import styles from './SidePop.module.css';
 import { MdOutlineLocalShipping} from "react-icons/md";
 import { Link } from 'react-router-dom';
+import { createPortal } from 'react-dom';
 
 
 const SidePopUp = () => {
@@ -19,12 +20,12 @@ const SidePopUp = () => {
         setOpen(id);
       }
     };
-    return (
+    return createPortal(
     <div className={styles.main} >
           <Accordion open={open} toggle={toggle} onFocus >
             <h3>Settings</h3>
         <AccordionItem>
-          <AccordionHeader targetId="1"><MdOutlineLocalShipping size={"25px"}/> <strong>Apps & Integration</strong> </AccordionHeader>
+          <AccordionHeader targetId="1"><MdOutlineLocalShipping size={"25px"}/> Apps & Integration </AccordionHeader>
           <AccordionBody accordionId="1">
              <ul>
                <Link to="/sales" > <li>Sales channel Apps</li></Link>
@@ -39,7 +40,7 @@ const SidePopUp = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="2"><MdOutlineLocalShipping size={"25px"}/><strong>Omniful App settings</strong> </AccordionHeader>
+          <AccordionHeader targetId="2"><MdOutlineLocalShipping size={"25px"}/>Omniful App settings </AccordionHeader>
           <AccordionBody accordionId="2">
            <ul>
             <li>Picker App</li>
@@ -49,7 +50,7 @@ const SidePopUp = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="3"> <MdOutlineLocalShipping size={"25px"}/><strong>Hub Management</strong> </AccordionHeader>
+          <AccordionHeader targetId="3"> <MdOutlineLocalShipping size={"25px"}/>Hub Management</AccordionHeader>
           <AccordionBody accordionId="3">
             <ul>
                 <Link to={"/hubs"} > <li>Hubs</li></Link>
@@ -62,7 +63,7 @@ const SidePopUp = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="4"> <MdOutlineLocalShipping size={"25px"} /><strong>Account settings</strong> </AccordionHeader>
+          <AccordionHeader targetId="4"> <MdOutlineLocalShipping size={"25px"} />Account settings </AccordionHeader>
           <AccordionBody accordionId="4">
             <ul>
                 <li>Locations</li>
@@ -74,7 +75,8 @@ const SidePopUp = () => {
           </AccordionBody>
         </AccordionItem>
       </Accordion>
-    </div>
+    </div>,
+    document.getElementById("sidePopup")
   )
 }
 

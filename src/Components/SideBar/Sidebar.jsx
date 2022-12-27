@@ -37,6 +37,7 @@ const Sidebar = () => {
        <div onClick={toggle}><FiSettings/></div>
        <div><FiUsers/></div>
        <div><MdOutlinePolicy/></div>
+        <hr></hr>
        <div><MdOutlineContactSupport/></div>
        <div><MdOutlineLogout/></div>
     </div>
