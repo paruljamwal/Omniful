@@ -5,6 +5,11 @@ import HubCards from "./HubCards";
 import { hubData } from "../../Data/db";
 
 const Hub = () => {
+
+  const createUser=()=>{
+    alert('create user')
+  }
+
   return (
     <Container>
       <div className={styles.header}>
@@ -13,7 +18,7 @@ const Hub = () => {
           <h4> Hubs</h4>
         </div>
         <div>
-          <Button className={styles.createNew}>+ Create New</Button>
+          <Button onClick={createUser} className={styles.createNew}>+ Create New</Button>
         </div>
       </div>
 
