@@ -1,4 +1,4 @@
-# OmniFull Assignment <img src="https://user-images.githubusercontent.com/96183163/209705860-5ca1e6e4-a1bd-47e0-8ce8-980bbec56f9a.png"/>
+# OmniFull Assignment 🏠
 
  <h1> TECH STACK </h1>  <br>
   1. REACT  <br>
