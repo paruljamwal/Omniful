@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Hub from '../Pages/Hub/Hub'
-import Layout from '../Pages/LayoutPage.jsx/Layout'
-import Sales from '../Pages/SalesChannel.jsx/Sales'
+import Layout from '../Pages/LayoutPage/Layout'
+import Sales from '../Pages/SalesChannel/Sales'
 import Error from './FoF/Error';
 
 const AllRoutes = () => {
