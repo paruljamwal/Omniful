@@ -110,7 +110,7 @@
   }
 }
 
-@media (max-width: 2000px) and (min-width: 550px) {
+@media (max-width: 1200px) and (min-width: 550px) {
   .main {
     margin: 100px auto auto 80px !important ;
     width: 90% !important;
