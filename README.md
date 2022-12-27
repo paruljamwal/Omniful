@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# OmniFull Assignment <img src="https://user-images.githubusercontent.com/96183163/209705860-5ca1e6e4-a1bd-47e0-8ce8-980bbec56f9a.png"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <h1> TECH STACK </h1>  <br>
+  1. REACT  <br>
+  2. ReactStrap & bootStrap v5 <br>
+  3. Css <br>
+  4. React icons <br>
+  5. Netlify <br>
+  6. Hotjar
+   
+  # Home page
+  
+  <img src="https://user-images.githubusercontent.com/96183163/209703430-50dc6c54-9669-4666-b77d-6f91ae8e5d7c.png" />
+  
+  # settings page
+  
+  <img src="https://user-images.githubusercontent.com/96183163/209703535-e6d4f179-234e-43a2-bf7a-6c11d3e7f226.png" />
+ 
+ # sales page
+  
+  <img src="https://user-images.githubusercontent.com/96183163/209703701-31458e2c-546d-48e0-afe3-5cbb88b205d3.png" />
+  <img src="https://user-images.githubusercontent.com/96183163/209703872-dc24aa52-a1b6-4ccf-886a-04c9668bc9db.png"/>
+  
+  # Hub page
+  
+  <img src="https://user-images.githubusercontent.com/96183163/209703986-2009d6e9-e595-4b30-bb11-3dd813165c94.png" />
 
-## Available Scripts
+  
+  # 404 page
+  
+  <img src="https://user-images.githubusercontent.com/96183163/209704090-c9db2de9-2ce2-4bfd-bfa4-6a8eaed90522.png" />
 
-In the project directory, you can run:
+  # Mobile view
+  
+  <img src="https://user-images.githubusercontent.com/96183163/209704294-9df3191f-23eb-4ed8-bf49-5dc7a75cb76d.png"/>
 
-### `npm start`
+  <img src="https://user-images.githubusercontent.com/96183163/209704383-804b9086-fdf7-4bd3-a3e4-e91f832c09b9.png" />
+  
+  # Tab view 
+  
+  <img src="https://user-images.githubusercontent.com/96183163/209704464-bc0e6b7c-64a7-4689-a189-70eca3f782d9.png"/>
+  
+<h1>Requirements:</h1>
+  
+   1.  Node.js (version-16.17.0) <br>
+   2.  react  (version-18.2.0)   <br>
+   3.  reactStrap using (npm i reactstrap)
+   4.  reactIcons (npm i react-icons)
+   5.  google free font -> Montserrat
+   
+   <h1> Getting Started with install Node </h1>
+   
+   link: 🔗 https://nodejs.org/en/download/
+   
+  
+   <h1> Getting Started with Create React App </h1>
+   
+   step 1. Goto any cmdPromt or gitbash or visual studio terminal then type <li> npx create-react-app ProjectName </li>  <br>
+   
+   <h1>How to Run </h1> 
+   
+   <h2> Clone this repository : </h2> 🔗 https://github.com/paruljamwal/Omniful.git  <br>
+   
+    step1. open cmdpromt or gitbash  <br>
+    step2. clone the repo..  <br>
+    step3. npm i  <br>
+    step4. npm start   <br>
+     
+   Runs the app in the development mode.  <br>
+   Open http://localhost:3000 to view it in your browser.  <br>
+ 
+  <h2> Live Demo: </h2> 🔗 https://frabjous-kelpie-9eed66.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
