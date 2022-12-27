@@ -22,56 +22,56 @@ const SidePopUp = () => {
     };
     return createPortal(
     <div className={styles.main} >
-          <Accordion open={open} toggle={toggle} onFocus >
+          <Accordion className={styles.Accordion} open={open} toggle={toggle} onFocus >
             <h3>Settings</h3>
-        <AccordionItem>
-          <AccordionHeader targetId="1"><MdOutlineLocalShipping size={"25px"}/> Apps & Integration </AccordionHeader>
-          <AccordionBody accordionId="1">
-             <ul>
-               <Link to="/sales" > <li>Sales channel Apps</li></Link>
-                <li>Shipping Apps</li>
-                <li>POS Apps</li>
-                <li>ERP Apps</li>
-                <li>SMS</li>
-                <li>Payments</li>
-                <li>WhatsApp Business</li>
-                <li>Other Apps</li>
-             </ul>
+        <AccordionItem className={styles.Accordion}  >
+          <AccordionHeader targetId="1"  ><MdOutlineLocalShipping size={"25px"} /> Apps & Integration </AccordionHeader>
+          <AccordionBody accordionId="1" >
+             <div className={styles.details} >
+               <Link to="/sales" > <p> <MdOutlineLocalShipping size={"20px"}/> Sales channel Apps</p></Link>
+                <p> <MdOutlineLocalShipping size={"20px"}/>  Shipping Apps</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> POS Apps</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> ERP Apps</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> SMS</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Payments</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> WhatsApp Business</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Other Apps</p>
+             </div>
           </AccordionBody>
         </AccordionItem>
-        <AccordionItem>
+        <AccordionItem className={styles.Accordion} >
           <AccordionHeader targetId="2"><MdOutlineLocalShipping size={"25px"}/>Omniful App settings </AccordionHeader>
           <AccordionBody accordionId="2">
-           <ul>
-            <li>Picker App</li>
-            <li>Driver App</li>
-            <li>Put-Away & Inventory</li>
-           </ul>
+           <div className={styles.details}>
+            <p> <MdOutlineLocalShipping size={"20px"}/> Picker App</p>
+            <p> <MdOutlineLocalShipping size={"20px"}/> Driver App</p>
+            <p> <MdOutlineLocalShipping size={"20px"}/> Put-Away & Inventory</p>
+           </div>
           </AccordionBody>
         </AccordionItem>
-        <AccordionItem>
+        <AccordionItem className={styles.Accordion} >
           <AccordionHeader targetId="3"> <MdOutlineLocalShipping size={"25px"}/>Hub Management</AccordionHeader>
           <AccordionBody accordionId="3">
-            <ul>
-                <Link to={"/hubs"} > <li>Hubs</li></Link>
-                <li>Locations</li>
-                <li>Bins</li>
-                <li>Consolidation area</li>
-                <li>Stations</li>
-                <li>Hub settings</li>
-            </ul>
+            <div className={styles.details}>
+                <Link to={"/hubs"} > <p> <MdOutlineLocalShipping size={"20px"}/> Hubs</p></Link>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Locations</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Bins</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Consolidation area</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Stations</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Hub settings</p>
+            </div>
           </AccordionBody>
         </AccordionItem>
-        <AccordionItem>
+        <AccordionItem className={styles.Accordion} >
           <AccordionHeader targetId="4"> <MdOutlineLocalShipping size={"25px"} />Account settings </AccordionHeader>
           <AccordionBody accordionId="4">
-            <ul>
-                <li>Locations</li>
-                <li>Bins</li>
-                <li>Consolidation area</li>
-                <li>Stations</li>
-                <li>Hub settings</li>
-            </ul>
+            <div className={styles.details}>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Locations</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Bins</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Consolidation area</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Stations</p>
+                <p> <MdOutlineLocalShipping size={"20px"}/> Hub settings</p>
+            </div>
           </AccordionBody>
         </AccordionItem>
       </Accordion>
@@ -80,4 +80,4 @@ const SidePopUp = () => {
   )
 }
 
-export default SidePopUp
+export default SidePopUp;

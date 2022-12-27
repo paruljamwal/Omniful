@@ -1,0 +1,32 @@
+
+.main{
+    background-image: url("../../Icons/bike.png");
+    width: 75%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+    animation: bike 5s linear infinite;
+
+}
+
+
+@keyframes bike {
+    0%{
+       transform: translate(0,0) rotateY(180deg);
+    }
+
+    50%{
+       transform: translate(120px,0) rotateY(180deg);
+    }
+    51%{
+       transform: translate(120px,0) rotateY(0deg);
+    }
+   100%{
+       transform: translate(0,0) rotateY(0deg);
+    }
+}
+
+
+
+

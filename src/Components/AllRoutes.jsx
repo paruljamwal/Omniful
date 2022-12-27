@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Hub from '../Pages/Hub/Hub'
 import Layout from '../Pages/LayoutPage.jsx/Layout'
 import Sales from '../Pages/SalesChannel.jsx/Sales'
+import Error from './FoF/Error';
 
 const AllRoutes = () => {
   return (
@@ -10,6 +11,7 @@ const AllRoutes = () => {
         <Route path="/" element={<Layout/>} />
         <Route path="/sales" element={<Sales/>} />
         <Route path='/hubs' element={<Hub/>} />
+        <Route path='*' element={<Error/>} />
     </Routes>
   )
 }

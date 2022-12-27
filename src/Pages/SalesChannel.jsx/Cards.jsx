@@ -21,7 +21,7 @@ const Cards = ({data}) => {
           >
             {card.status}
           </CardText>
-          <CardImg className={styles.image}  src={card.logo} />
+          <CardImg  className={styles.image}  src={card.logo} />
           <CardBody>
             <CardTitle className={styles.name} >{card.name}</CardTitle>
             <CardSubtitle className={styles.title} >{card.title}</CardSubtitle>

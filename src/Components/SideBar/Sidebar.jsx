@@ -14,20 +14,27 @@ import { MdOutlineLogout } from "react-icons/md";
 import { MdOutlineCategory } from "react-icons/md";
 import { BsInboxes } from "react-icons/bs";
 import SidePopUp from '../SidePopUp/SidePopUp';
+import { useNavigate } from 'react-router-dom';
 
 const Sidebar = () => {
-
+    const navigate = useNavigate();
     const [open,setOpen] = useState(false)
     const toggle=()=>{
       setOpen(!open);
     }
+
+
+    const goToHome=()=>{
+       navigate("/")
+    }
+
   return (
     <>
     <div className={styles.main} >
        <div>
-        <img src={logo} alt="Logo" className={styles.logo}/>
+        <img onClick={goToHome} src={logo} alt="Logo" className={styles.logo}/>
        </div>
-       <div ><GrHomeRounded /></div>
+       <div onClick={goToHome} ><GrHomeRounded /></div>
        <div><BiDollarCircle/></div>
        <div><MdOutlineInsights/></div>
        <div><MdOutlineInventory2 /></div>
