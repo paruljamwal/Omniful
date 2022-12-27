@@ -100,7 +100,7 @@ export const hubData=[
       day:"Sunday(Today)",
       date:"10:00AM to 6:00PM - 06:00 PM",
       phone:"+966-2777588235",
-      web:"Jeddahhubpanda@Hyperpanda.com"
+      web:"Jeddahhubpanda@Hy.com"
   },
   { 
     id:2,
@@ -111,7 +111,7 @@ export const hubData=[
     day:"Sunday (Today)",
     date:"10:00AM to 6:00PM -  06:00 PM",
     phone:"+966-2777588235",
-    web:"Jeddahhubpanda@Hyperpanda.com"
+    web:"Jeddahhubpanda@Hy.com"
 },
 { 
     id:3,
@@ -122,7 +122,7 @@ export const hubData=[
     day:"Sunday (Today)",
     date:"10:00AM to 6PM -  06:00 PM",
     phone:'+966-2777588235',
-    web:"Jeddahhubpanda@Hyperpanda.com"
+    web:"Jeddahhubpanda@Hy.com"
 }
 
 ]

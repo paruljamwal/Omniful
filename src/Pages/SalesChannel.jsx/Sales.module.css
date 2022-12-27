@@ -1,5 +1,4 @@
 .main {
-  border: 0px solid rgb(224, 224, 224);
   margin-top: 6px;
 }
 
@@ -99,8 +98,15 @@
 }
 
 @media (max-width: 550px) {
+  .main {
+    margin: 100px auto auto 80px !important ;
+    width: 74% !important;
+  }
   .cardBox {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .breadCrumbs {
+   display: none;
   }
 }
 

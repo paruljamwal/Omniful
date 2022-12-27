@@ -34,3 +34,10 @@
   left: 20%;
 }
 
+@media (max-width: 655px) {
+.main{
+  margin-top: 70px;
+}
+  
+}
+

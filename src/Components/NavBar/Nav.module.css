@@ -27,3 +27,20 @@
     padding: 1px 30px;
 
 }
+
+@media (max-width: 550px) {
+    .Nabvar{
+        display: flex;
+        flex-direction: column;
+        background:rgb(101, 119, 255) ;
+    
+    }
+    .link{
+        padding: 3px 4px;
+        margin-left: 35%;
+    }
+    .help__icons div{
+        padding: 1px 40px;
+    }
+    
+  }

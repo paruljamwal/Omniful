@@ -17,16 +17,27 @@
     }
 
     50%{
-       transform: translate(120px,0) rotateY(180deg);
+       transform: translate(50px,0) rotateY(180deg);
     }
     51%{
-       transform: translate(120px,0) rotateY(0deg);
+       transform: translate(50px,0) rotateY(0deg);
     }
    100%{
        transform: translate(0,0) rotateY(0deg);
     }
 }
 
-
+@media (max-width: 550px) {
+   .main{
+      width: 60%;
+      margin-top: 100px;
+      height: 100vh;
+      animation: bike 10s linear infinite;
+  }
+ }
+ 
+ @media (max-width: 950px) and (min-width: 550px) {
+ 
+ }
 
 

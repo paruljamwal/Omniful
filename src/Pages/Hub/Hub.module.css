@@ -12,17 +12,17 @@
 .createNew:hover {
   background-color: rgb(127, 141, 249);
 }
-
-.span2 {
-  display: flex;
-}
-
 .span1 {
   margin-right: 10px;
   width: 10px;
   height: 30px;
   background-color: rgb(255, 200, 42);
 }
+
+.span2 {
+  display: flex;
+}
+
 
 .breadCrumbs {
   margin: 5px 0px;
@@ -134,4 +134,31 @@
 }
 .headBox {
   display: flex;
+}
+
+
+
+@media (max-width: 550px) {
+  .cardBox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header {
+    margin: 100px 3px 10px;
+  }
+  .createNew {
+  width: 140px;
+  font-size: small;
+  }
+  .card {
+     margin-left: 60px;
+  }
+  .breadCrumbs {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 550px) {
+  .cardBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
