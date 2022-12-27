@@ -110,7 +110,11 @@
   }
 }
 
-@media (max-width: 950px) and (min-width: 550px) {
+@media (max-width: 2000px) and (min-width: 550px) {
+  .main {
+    margin: 100px auto auto 80px !important ;
+    width: 90% !important;
+  }
   .cardBox {
     grid-template-columns: repeat(3, 1fr);
   }

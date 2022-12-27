@@ -157,8 +157,14 @@
   }
 }
 
-@media (max-width: 950px) and (min-width: 550px) {
+@media (max-width: 2000px) and (min-width: 550px) {
   .cardBox {
     grid-template-columns: repeat(2, 1fr);
   }
+  .header {
+    margin: 90px 45px 10px;
+  }
+  .breadCrumbs {
+  margin: 5px 45px ;
+}
 }

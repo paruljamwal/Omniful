@@ -51,9 +51,9 @@ li:hover{
   }
 
   
-@media (max-width: 950px) and (min-width: 550px) {
+@media (max-width: 2000px) and (min-width: 550px) {
     .main{
-        width: 80%;
+        width: 30%;
         top: 50px;
     }
 }
