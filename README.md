@@ -38,7 +38,7 @@
   
   # Tab view 
   
-  <img src="https://user-images.githubusercontent.com/96183163/209704464-bc0e6b7c-64a7-4689-a189-70eca3f782d9.png"/>
+  <img src="https://user-images.githubusercontent.com/96183163/209706998-4d61768d-fc72-4e09-913d-06523aa494ca.png"/>
   
 <h1>Requirements:</h1>
   
