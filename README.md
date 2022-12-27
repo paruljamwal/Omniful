@@ -1,4 +1,4 @@
-# OmniFull Assignment 🏠
+# OmniFull Assignment  📁
 
  <h1> TECH STACK </h1>  <br>
   1. REACT  <br>
