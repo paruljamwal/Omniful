@@ -14,7 +14,7 @@
   
   # settings page
   
-  <img src="https://user-images.githubusercontent.com/96183163/209703535-e6d4f179-234e-43a2-bf7a-6c11d3e7f226.png" />
+  <img src="https://user-images.githubusercontent.com/96183163/209755675-76ca3528-b58a-4d7b-b1c8-fbd6cd613fe7.png" />
  
  # sales page
   
