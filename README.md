@@ -80,5 +80,11 @@
   2. /sales
   3. /hubs
   
+  # key points
+  
+   DRY principle, CI/CD, and the latest ES6+ standards.
+  
   <h2> Live Demo: </h2> 🔗 https://frabjous-kelpie-9eed66.netlify.app/
+  
+  
 
