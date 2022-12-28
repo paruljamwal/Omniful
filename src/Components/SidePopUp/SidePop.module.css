@@ -43,6 +43,10 @@ li:hover{
     border-radius:10px;
 }
 
+h3{
+    margin-left: 20px;
+}
+
 @media (max-width: 550px) {
     .main{
         width: 80%;
@@ -51,7 +55,7 @@ li:hover{
   }
 
   
-@media (max-width: 2000px) and (min-width: 550px) {
+@media (max-width: 1200px) and (min-width: 550px) {
     .main{
         width: 30%;
         top: 50px;

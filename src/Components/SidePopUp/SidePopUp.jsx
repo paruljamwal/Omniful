@@ -25,7 +25,7 @@ const SidePopUp = () => {
           <Accordion className={styles.Accordion} open={open} toggle={toggle} onFocus >
             <h3>Settings</h3>
         <AccordionItem className={styles.Accordion}  >
-          <AccordionHeader targetId="1"  ><MdOutlineLocalShipping size={"25px"} /> Apps & Integration </AccordionHeader>
+          <AccordionHeader targetId="1"  ><MdOutlineLocalShipping size={"25px"} />  Apps & Integration </AccordionHeader>
           <AccordionBody accordionId="1" >
              <div className={styles.details} >
                <Link to="/sales" > <p> <MdOutlineLocalShipping size={"20px"}/> Sales channel Apps</p></Link>
@@ -40,7 +40,7 @@ const SidePopUp = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem className={styles.Accordion} >
-          <AccordionHeader targetId="2"><MdOutlineLocalShipping size={"25px"}/>Omniful App settings </AccordionHeader>
+          <AccordionHeader targetId="2"><MdOutlineLocalShipping size={"25px"}/>  Omniful App settings </AccordionHeader>
           <AccordionBody accordionId="2">
            <div className={styles.details}>
             <p> <MdOutlineLocalShipping size={"20px"}/> Picker App</p>
@@ -50,7 +50,7 @@ const SidePopUp = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem className={styles.Accordion} >
-          <AccordionHeader targetId="3"> <MdOutlineLocalShipping size={"25px"}/>Hub Management</AccordionHeader>
+          <AccordionHeader targetId="3"> <MdOutlineLocalShipping size={"25px"}/>  Hub Management</AccordionHeader>
           <AccordionBody accordionId="3">
             <div className={styles.details}>
                 <Link to={"/hubs"} > <p> <MdOutlineLocalShipping size={"20px"}/> Hubs</p></Link>
@@ -63,7 +63,7 @@ const SidePopUp = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem className={styles.Accordion} >
-          <AccordionHeader targetId="4"> <MdOutlineLocalShipping size={"25px"} />Account settings </AccordionHeader>
+          <AccordionHeader targetId="4"> <MdOutlineLocalShipping size={"25px"} />  Account settings </AccordionHeader>
           <AccordionBody accordionId="4">
             <div className={styles.details}>
                 <p> <MdOutlineLocalShipping size={"20px"}/> Locations</p>
