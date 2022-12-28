@@ -32,7 +32,7 @@
 
   # Mobile view
   
-  <img src="https://user-images.githubusercontent.com/96183163/209704294-9df3191f-23eb-4ed8-bf49-5dc7a75cb76d.png"/>
+  <img src="https://user-images.githubusercontent.com/96183163/209755818-6350f6fb-3501-40ca-824c-27513e34d0da.png"/>
 
   <img src="https://user-images.githubusercontent.com/96183163/209704383-804b9086-fdf7-4bd3-a3e4-e91f832c09b9.png" />
   
