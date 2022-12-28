@@ -68,6 +68,17 @@
      
    Runs the app in the development mode.  <br>
    Open http://localhost:3000 to view it in your browser.  <br>
- 
+   
+  # Work flow
+
+  1. Home page -> settings -> Apps & Integrations -> sales channel apps
+  2. Home page -> settings -> Hub management -> Hubs 
+  
+  # Routes
+  
+  1. /
+  2. /sales
+  3. /hubs
+  
   <h2> Live Demo: </h2> 🔗 https://frabjous-kelpie-9eed66.netlify.app/
 
